@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.11.9 on win32)" generated="2025-10-27T13:02:31.158041" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Cases" source="e:\VINAYAK KATWA\Network-Automation-Testing-Framework\test_cases">
+<suite id="s1-s1" name="Ping Test" source="e:\VINAYAK KATWA\Network-Automation-Testing-Framework\test_cases\ping_test.robot">
+<test id="s1-s1-t1" name="Ping Network Host" line="6">
+<kw name="Verify Connection" owner="keywords">
+<msg time="2025-10-27T13:02:31.330944" level="INFO">${status} = True</msg>
+<var>${status}</var>
+<arg>${HOST}</arg>
+<doc>Return True if host reachable, False otherwise.</doc>
+<status status="PASS" start="2025-10-27T13:02:31.291419" elapsed="0.040524"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${status}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-10-27T13:02:31.331943" elapsed="0.001000"/>
+</kw>
+<doc>Verify that the host is reachable</doc>
+<status status="PASS" start="2025-10-27T13:02:31.288308" elapsed="0.045633"/>
+</test>
+<test id="s1-s1-t2" name="Measure Latency" line="11">
+<kw name="Check Network Latency" owner="keywords">
+<msg time="2025-10-27T13:02:31.350468" level="INFO">Latency to 8.8.8.8: 11.57 ms</msg>
+<msg time="2025-10-27T13:02:31.350468" level="INFO">${latency} = 11.568069458007812</msg>
+<var>${latency}</var>
+<arg>${HOST}</arg>
+<doc>Ping a host and return latency in ms.</doc>
+<status status="PASS" start="2025-10-27T13:02:31.335938" elapsed="0.014530"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${latency} &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-10-27T13:02:31.350468" elapsed="0.000997"/>
+</kw>
+<doc>Measure the latency to host</doc>
+<status status="PASS" start="2025-10-27T13:02:31.333941" elapsed="0.018530"/>
+</test>
+<status status="PASS" start="2025-10-27T13:02:31.231634" elapsed="0.121841"/>
+</suite>
+<status status="PASS" start="2025-10-27T13:02:31.160795" elapsed="0.194673"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Cases" id="s1" pass="2" fail="0" skip="0">Test Cases</stat>
+<stat name="Ping Test" id="s1-s1" pass="2" fail="0" skip="0">Test Cases.Ping Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

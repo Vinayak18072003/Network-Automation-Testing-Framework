@@ -1,0 +1,1 @@
+HOST = "8.8.8.8"  # Google DNS
