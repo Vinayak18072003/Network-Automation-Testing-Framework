@@ -22,3 +22,9 @@ git clone https://github.com/vinayakkatwa18072003/Network-Automation-Testing-Fra
 cd Network-Automation-Testing-Framework
 pip install -r requirements.txt
 python run_tests.py
+
+## 🧪 Sample Output
+
+When running `python run_tests.py`, a Robot Framework report is generated in `/results/`.
+
+Example console output:
