@@ -24,7 +24,7 @@ It simulates how network test engineers automate repetitive test cases during te
 
 ## 🧩 How to Run
 ```bash
-git clone https://github.com/vinayakkatwa18072003/Network-Automation-Testing-Framework.git
+git clone https://github.com/Vinayak18072003/Network-Automation-Testing-Framework.git
 cd Network-Automation-Testing-Framework
 pip install -r requirements.txt
 python run_tests.py
