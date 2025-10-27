@@ -1,5 +1,11 @@
 # 🧪 Network Automation Testing Framework
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Vinayak18072003/Network-Automation-Testing-Framework)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python Version](https://img.shields.io/badge/python-3.11-blue)
+![Platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-blue)
+
+
 ## 📘 Overview
 This project automates basic network connectivity and latency tests using **Robot Framework** and **Python**.  
 It simulates how network test engineers automate repetitive test cases during telecom testing.
