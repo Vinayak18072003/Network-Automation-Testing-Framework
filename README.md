@@ -28,3 +28,14 @@ python run_tests.py
 When running `python run_tests.py`, a Robot Framework report is generated in `/results/`.
 
 Example console output:
+
+
+Example test summary (from report.html):
+
+| Test Name | Status | Latency (ms) |
+|------------|--------|--------------|
+| Ping Network Host | ✅ PASS | 36.42 |
+| Measure Latency | ✅ PASS | 36.42 |
+
+## 📸 Report Preview
+![Test Report Screenshot](screenshots/report_preview.png)
